@@ -61,15 +61,15 @@ Modal::begin([
                         'max' => $module->maxPageSize
                     ])) ?>
             </div>
-            <?php if ($allowThemeSetting): ?>
             <div class="col-sm-<?= $col ?>">
+            <?php if ($allowThemeSetting): ?>
                 <?= $form->field($model, 'theme')->widget(Select2::classname(), [
                     'data' => $model->themeList,
                     'options' => ['placeholder' => Yii::t('kvdynagrid', 'Select a theme...')],
                     'pluginOptions' => ['allowClear' => true]
                 ])->hint(Yii::t('kvdynagrid', 'Select theme to style grid')); ?>
-            </div>
             <?php endif; ?>
+            </div>
             <?php if ($allowFilterSetting): ?>
                 <div class="col-sm-<?= $col ?>">
                     <?= $form->field($model, 'filterId')->widget(Select2::classname(), [

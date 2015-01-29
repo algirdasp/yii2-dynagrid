@@ -94,6 +94,12 @@ class DynaGrid extends \yii\base\Widget
      * @var boolean whether to allow display/setup of the sort in the personalize grid form
      */
     public $allowSortSetting = true;
+    
+    /**
+     * @var boolean whether to allow display/setup of the theme in the personalize grid form
+     */
+    public $allowThemeSetting = true;
+
 
     /**
      * @var array widget options for \kartik\widgets\GridView that will be rendered
