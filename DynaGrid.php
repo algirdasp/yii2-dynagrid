@@ -100,7 +100,6 @@ class DynaGrid extends \yii\base\Widget
      */
     public $allowThemeSetting = true;
 
-
     /**
      * @var array widget options for \kartik\widgets\GridView that will be rendered
      * by the DynaGrid widget
