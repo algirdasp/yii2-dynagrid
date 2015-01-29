@@ -147,7 +147,7 @@ class Module extends \kartik\base\Module
      */
     public function init()
     {
-        $this->_msgCat = 'kvdynagrid';
+        //$this->_msgCat = 'kvdynagrid';
         parent::init();
         $this->initSettings();
     }
