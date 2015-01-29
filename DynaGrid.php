@@ -974,7 +974,8 @@ class DynaGrid extends \yii\base\Widget
                 'toggleButtonGrid' => $this->toggleButtonGrid,
                 'id' => $this->_gridModalId,
                 'allowFilterSetting' => $this->allowFilterSetting,
-                'allowSortSetting' => $this->allowSortSetting
+                'allowSortSetting' => $this->allowSortSetting,
+                'allowThemeSetting' => $this->allowThemeSetting
             ]);
         }
         $model->dynaGridId = $this->options['id'];
