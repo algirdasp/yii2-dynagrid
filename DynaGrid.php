@@ -975,7 +975,7 @@ class DynaGrid extends \yii\base\Widget
                 'id' => $this->_gridModalId,
                 'allowFilterSetting' => $this->allowFilterSetting,
                 'allowSortSetting' => $this->allowSortSetting,
-                'allowThemeSetting' => $this->allowThemeSetting
+                'allowThemeSetting' => $this->allowThemeSetting,
             ]);
         }
         $model->dynaGridId = $this->options['id'];

@@ -57,7 +57,7 @@ class DynaGridConfig extends Model
                 ],
                 'safe'
             ],
-            [['pageSize', 'theme'], 'required'],
+            [['pageSize'], 'required'],
             ['pageSize', 'integer', 'min' => $module->minPageSize, 'max' => $module->maxPageSize],
             ['pageSize', 'default', 'value' => $module->defaultPageSize],
             ['theme', 'default', 'value' => $module->defaultTheme],
